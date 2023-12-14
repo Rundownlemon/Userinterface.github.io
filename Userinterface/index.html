@@ -4,6 +4,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
+ .center {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -23,7 +31,7 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 60%;
 }
 
 button:hover {
@@ -139,9 +147,9 @@ h2 {text-align: center;}
 <body>
 
 <h2>Log in ka dito Love</h2>
-
+<div class= "center">
 <button style="text-align: center;" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" >Login</button>
-
+</div>
 <div id="id01" class="modal">
   
   <form class="modal-content animate" action="rundownlemon.github.io/I-LOVE-YOU.github.io/Testcode/" method="post">
